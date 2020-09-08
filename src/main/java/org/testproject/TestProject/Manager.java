@@ -5,9 +5,17 @@ public class Manager {
 	private String firstName;
 	private String lastName;
 	private String address;
+	private String dateOfBirth;
 	
 	
 	
+	
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
 	public String getAddress() {
 		return address;
 	}
