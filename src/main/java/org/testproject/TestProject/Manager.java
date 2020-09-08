@@ -4,6 +4,16 @@ public class Manager {
 	
 	private String firstName;
 	private String lastName;
+	private String address;
+	
+	
+	
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
